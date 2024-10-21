@@ -4,27 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- 1. Name your web page -->
-    <title></title>
+    <title>Portfolio</title>
 
     <!-- 7. Import Stylesheet -->
-
+    <link rel="stylesheet" href="styles.css">
 
 </head>
 
 <body>
     <!-- 2. Name and Info -->
     <header>
-
+      <h1>Daniel</h1>
+      <h2>Enthusiastic Computer Science Student</h2>
+      <p>I am a student at the University of Guelph</p> 
+      <p>I am a first year student</p>
     </header>
 
     <!-- 3. About Me -->
-    <section>
+    <section class="about">
         <!-- 3a. The About Me Section -->
-
+        <div>
+            <h2>About Me</h2>
+            <p>My name is Daniel. I am looking forward to learning about <br> web development through the GDSC workshops.</p>
+        </div>
 
         <!-- 4. Add a Picture -->
         <div>
-
+          <img src="images/photo.png" style="width: 200px;" class="myPicture"/>
         </div>
     </section>
 
@@ -33,11 +39,29 @@
     <section class="projects">
         <div>
             <!-- 5a. Add project title -->
-            <h4></h4>
+            <h4><a href="https://sandoomer.itch.io/garden-gauntlet">Garden Gauntlet</a></h4>
+            <img src="https://img.itch.zone/aW1nLzE1Mzg2NjY5LmpwZw==/315x250%23c/KQGCUF.jpg" style="width: 150px;"/>
 
             <!-- 5b. Add project description -->
+            <p>Garden Guardians is a co-op strategy survival game, where you and up to <br>
+                3 other players can protect your outdoor garden from evil weeds that attack in waves.</p>
+            <ul>
+                <li>Complete wave 10 to beat the game</li>
+                <li>Team up with your friends and get the highest score you possibly can.</li>
+                <li>Available on Windows and Linux</li>
+            </ul>
+        </div>
+        <div>
+            <!-- 5a. Add project title -->
+            <h4><a href="https://github.com/Daniel-Vono/Kivama">Kivama</a></h4>
+            <img src="https://ollama.com/public/ollama.png" style="height: 115px;"/>
 
-
+            <!-- 5b. Add project description -->
+            <p>A simple frontend made with Kivy for running large language models using Ollama.</p>
+            <ul>
+                <li>Made with Kivy and the Ollama Python library</li>
+                <li>Available on Windows and Linux</li>
+            </ul>
         </div>
     </section>
 
@@ -46,6 +70,7 @@
         <h2>Connect With Me!</h2>
         <!-- 6a. Make a button -->
         <!-- 6b. Make it redirectable -->
+         <button><a href="https://www.linkedin.com/in/daniel-vono-505bb8322/" target="_blank">LinkedIn</a></button>
 
     </footer>
 </body>

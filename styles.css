@@ -70,6 +70,8 @@ footer.findme
 {
     text-align: center;
     padding: 25px;
+    border-style: dotted;
+    border-color: #34a853;
 }
 
 button
